@@ -1,4 +1,6 @@
 # Apache Flink Playgrounds
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fflink-playgrounds.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fflink-playgrounds?ref=badge_shield)
+
 
 This repository provides playgrounds to quickly and easily explore [Apache Flink](https://flink.apache.org)'s features.
 
@@ -23,3 +25,7 @@ Apache Flink is an open source project of The Apache Software Foundation (ASF).
 
 Flink is distributed data processing framework with powerful stream and batch processing capabilities.
 Learn more about Flink at [http://flink.apache.org/](https://flink.apache.org/)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fflink-playgrounds.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fflink-playgrounds?ref=badge_large)
