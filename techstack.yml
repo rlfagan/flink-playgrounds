@@ -1,0 +1,463 @@
+repo_name: rlfagan/flink-playgrounds
+report_id: de5a5683c7a4c2515be35007e80a7579
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T22:59:01+00:00'
+requested_by: victorunique
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/operations-playground/docker-compose.yaml
+  detection_source: operations-playground/docker-compose.yaml
+  last_updated_by: Konstantin Knauf
+  last_updated_on: 2019-07-22 06:07:27.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/mysql-spend-report-init/create-table.sql
+  detection_source: docker/mysql-spend-report-init/create-table.sql
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:11:23.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/Dockerfile
+  detection_source: docker/ops-playground-image/Dockerfile
+  last_updated_by: Konstantin Knauf
+  last_updated_on: 2019-07-22 06:07:27.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/pyflink-walkthrough/docker-compose.yml
+  detection_source: pyflink-walkthrough/docker-compose.yml
+  last_updated_by: David Anderson
+  last_updated_on: 2020-10-12 15:46:33.000000000 Z
+- name: Apache Flink
+  description: Fast and reliable large-scale data processing engine
+  website_url: https://flink.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Big Data Tools
+  image_url: https://img.stackshare.io/service/2968/kQB_QIB_.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/operations-playground/conf/flink-conf.yaml
+  detection_source: operations-playground/conf/flink-conf.yaml
+  last_updated_by: Konstantin Knauf
+  last_updated_on: 2019-07-22 06:07:27.000000000 Z
+- name: Apache Ignite
+  description: An open-source distributed database, caching and processing platform
+  website_url: http://ignite.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/6053/xTBxO73F_200x200.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/operations-playground/docker-compose.yaml
+  detection_source: operations-playground/docker-compose.yaml
+  last_updated_by: Victor Xu
+  last_updated_on: 2021-01-27 10:42:31.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/docker-compose.yml
+  detection_source: table-walkthrough/docker-compose.yml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:19:16.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/data-generator/pom.xml
+  detection_source: docker/data-generator/pom.xml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:11:01.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/docker-compose.yml
+  detection_source: table-walkthrough/docker-compose.yml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:19:16.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/data-generator/Dockerfile
+  detection_source: docker/data-generator/Dockerfile
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:11:01.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds
+  detection_source: Repo Metadata
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/grafana-spend-report-init/grafana.ini
+  detection_source: docker/grafana-spend-report-init/grafana.ini
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:17:34.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/pom.xml
+  detection_source: table-walkthrough/pom.xml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:19:16.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/pyflink-walkthrough/docker-compose.yml
+  detection_source: pyflink-walkthrough/docker-compose.yml
+  last_updated_by: David Anderson
+  last_updated_on: 2020-10-12 15:46:33.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Fabian Hueske
+  last_updated_on: 2019-08-12 16:48:23.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Fabian Hueske
+  last_updated_on: 2019-08-12 16:48:23.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/operations-playground/docker-compose.yaml
+  detection_source: operations-playground/docker-compose.yaml
+  last_updated_by: Konstantin Knauf
+  last_updated_on: 2019-07-22 06:07:27.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/pyflink-walkthrough/kibana/Dockerfile
+  detection_source: pyflink-walkthrough/kibana/Dockerfile
+  last_updated_by: David Anderson
+  last_updated_on: 2020-10-12 15:46:33.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/Dockerfile
+  detection_source: docker/ops-playground-image/Dockerfile
+  last_updated_by: Konstantin Knauf
+  last_updated_on: 2019-07-22 06:07:27.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/pyflink-walkthrough/docker-compose.yml
+  detection_source: pyflink-walkthrough/docker-compose.yml
+  last_updated_by: David Anderson
+  last_updated_on: 2020-10-12 15:46:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds
+  detection_source: Repo Metadata
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  version: 1.2.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Fabian Hueske
+  last_updated_on: 2019-08-12 16:48:23.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Log4j 1.2.x
+    cve_id: CVE-2022-23305
+    cve_url: https://github.com/advisories/GHSA-65fg-84f6-3jq3
+    detected_date: Jan 22
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Apache Log4j
+    cve_id: CVE-2022-23307
+    cve_url: https://github.com/advisories/GHSA-f7vh-qwp3-x37m
+    detected_date: Nov 26
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Log4j
+    cve_id: CVE-2019-17571
+    cve_url: https://github.com/advisories/GHSA-2qrg-x229-3v8q
+    detected_date: Aug 22
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Log4j 1.x
+    cve_id: CVE-2022-23302
+    cve_url: https://github.com/advisories/GHSA-w9p3-5cr8-m3jj
+    detected_date: Jan 22
+    severity: high
+    first_patched:
+  - name: JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data
+    cve_id: CVE-2021-4104
+    cve_url: https://github.com/advisories/GHSA-fp5r-v3w9-4333
+    detected_date: Dec 15
+    severity: high
+    first_patched:
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/pom.xml
+  detection_source: table-walkthrough/pom.xml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:19:16.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.apache.kafka:kafka-clients
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/data-generator/pom.xml
+  detection_source: docker/data-generator/pom.xml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:11:01.000000000 Z
+  vulnerabilities:
+  - name: Observable Discrepancy in Apache Kafka
+    cve_id: CVE-2021-38153
+    cve_url: https://github.com/advisories/GHSA-3j6g-hxx5-3q26
+    detected_date: Sep 6
+    severity: moderate
+    first_patched: 2.6.3
+- name: org.apache.flink:flink-clients_2.11
+  version: 1.12.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/pom.xml
+  detection_source: table-walkthrough/pom.xml
+  last_updated_by: Victor Xu
+  last_updated_on: 2021-01-27 10:42:31.000000000 Z
+- name: org.apache.flink:flink-java
+  description: The Apache Software Foundation provides support for the Apache community
+    of open-source software projects
+  version: 1.12.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Victor Xu
+  last_updated_on: 2021-01-27 10:42:31.000000000 Z
+- name: org.apache.flink:flink-streaming-java_2.11
+  version: 1.12.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Victor Xu
+  last_updated_on: 2021-01-27 10:42:31.000000000 Z
+- name: org.apache.flink:flink-streaming-scala_2.11
+  version: 1.12.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/pom.xml
+  detection_source: table-walkthrough/pom.xml
+  last_updated_by: Victor Xu
+  last_updated_on: 2021-01-27 10:42:31.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/table-walkthrough/pom.xml
+  detection_source: table-walkthrough/pom.xml
+  last_updated_by: Seth Wiesman
+  last_updated_on: 2020-06-10 21:19:16.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/flink-playgrounds/blob/master/docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  detection_source: docker/ops-playground-image/java/flink-playground-clickcountjob/pom.xml
+  last_updated_by: Fabian Hueske
+  last_updated_on: 2019-08-12 16:48:23.000000000 Z
